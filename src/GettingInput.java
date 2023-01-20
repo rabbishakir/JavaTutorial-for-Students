@@ -15,10 +15,13 @@ public class GettingInput {
         // adding a switch case to perform the operation
 
         double ans;
+
         switch (operator) {
             case '+':
                 ans = number1 + number2;
                 break;
+
+
             case '-':
                 ans = number1 - number2;
                 break;
@@ -27,6 +30,7 @@ public class GettingInput {
                 break;
             case '/':
                 ans = number1 / number2;
+                break;
             default:
                 System.out.println("No valid Operator");
                 return;  // variable ans in initiallized before the switch case and need to return to the scope
