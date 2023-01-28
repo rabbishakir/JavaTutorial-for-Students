@@ -6,7 +6,6 @@ public class ArrayTest {
     public static void main(String[] args) {
         // class er name is array taai ei rokom dekhacche
         array arr = new array();
-
         // now I am taking an array that will keep 5 numbers
 
         int[] numbers = new int[5];
