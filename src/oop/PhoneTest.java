@@ -7,7 +7,7 @@ public class PhoneTest {
         // greetMessage();
         // made object from the Phone class object er naam phone1 and eitar data type holo phone
         Phone phone1 = new Phone();
-        phone1.showModel();
+        //phone1.showModel();
         phone1.call(480341043);
         phone1.text(480341043,"This is my first text message");
 
