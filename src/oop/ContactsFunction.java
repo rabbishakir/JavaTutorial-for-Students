@@ -7,8 +7,8 @@ public class ContactsFunction {
     private ArrayList<String> contactList = new ArrayList<String>();
 
 
-    public void addContact(){
-        contactList.add("Mithila");
+    public void addContact(String name){
+        contactList.add(name);
     }
     public void showContacts(){
         System.out.println(contactList);

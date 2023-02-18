@@ -23,8 +23,6 @@ public class Car {
 
     // getter and setter methods to give access to other class
 
-
-
     public String getName() {
         return this.name;
     }
