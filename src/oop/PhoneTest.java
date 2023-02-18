@@ -7,23 +7,21 @@ public class PhoneTest {
         // greetMessage();
         // made object from the Phone class object er naam phone1 and eitar data type holo phone
         Phone phone1 = new Phone();
-        //phone1.showModel();
-        phone1.call(480341043);
-        phone1.text(480341043,"This is my first text message");
+        // phone1.showModel();
+        // phone1.call(480341043);
+        // phone1.text(480341043,"This is my first text message");
 
 
         // same class er static method taai object banate hoy naai
-        greetMessage();
+        // greetMessage();
 
         // calling groupsms method
         phone1.snedgroupSms();
 
-        // will be adding contacts function
-        // phone1.addContact();
-        // phone1.showContacts();
 
         ContactsFunction phoneContact = new ContactsFunction();
-        phoneContact.addContact();
+        phoneContact.addContact("Mithila");
+        phoneContact.addContact("Rabbi");
         phoneContact.showContacts();
 
     }
