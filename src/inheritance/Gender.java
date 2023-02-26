@@ -7,6 +7,7 @@ public class Gender extends Human {
     }
 
     public void whatsYourGender(){
-        System.out.println(getName() + "is a male");
+        System.out.println(getName() + " is a male");
     }
+
 }

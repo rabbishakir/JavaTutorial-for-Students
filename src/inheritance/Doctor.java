@@ -1,6 +1,13 @@
 package inheritance;
 
-public class Doctor extends Gender {
+import SmartPhone.SmartPhone;
+
+public class Doctor extends Human {
+
+    private SmartPhone drIphone = new SmartPhone("Ihone 11",true,true);
+    public SmartPhone getDrIphone(){
+        return this.drIphone;
+    }
 
 
     public Doctor(String name) {
@@ -11,10 +18,10 @@ public class Doctor extends Gender {
         System.out.println(this.getName() + " Suggest: " + "Cut down carb to 40 grams or less");
     }
 
-    @Override
-    public void whatsYourGender() {
-        //super.whatsYourGender();
-        System.out.println(getName() + " is a female");
-    }
+//    @Override
+//    public void whatsYourGender() {
+//        //super.whatsYourGender();
+//        System.out.println(getName() + " is a female");
+//    }
 
 }

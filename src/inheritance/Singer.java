@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Singer extends Gender{
+public class Singer extends Human{
     public Singer(String name) {
         super(name);
     }

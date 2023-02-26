@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Teacher extends Gender {
+public class Teacher extends Human {
     public Teacher(String name) {
         super(name);
     }

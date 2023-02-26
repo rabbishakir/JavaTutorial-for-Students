@@ -17,7 +17,7 @@ public class InheritanceTest {
         // these are inhetated from the Human class
         dr.sleep();
         dr.eat();
-        dr.whatsYourGender();
+        /*dr.whatsYourGender();*/
 
 
         sr.singAsong();
@@ -32,7 +32,9 @@ public class InheritanceTest {
         // these are inhetated from the Human class
         tr.sleep();
         tr.eat();
-        tr.whatsYourGender();
+        //tr.whatsYourGender();
+
+        dr.getDrIphone().showSettings();
 
 
 
