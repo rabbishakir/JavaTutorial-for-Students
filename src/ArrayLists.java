@@ -8,7 +8,8 @@ public class ArrayLists {
         // Making a aList object from Arraylist class
         ArrayList<String> aLisst = new ArrayList<String>();
 
-        aLisst.add("Toyota");
+        aLisst.add("Toyota");  
+        aLisst.add("Yamaha"); 
         aLisst.add("BMW");
         aLisst.add("Nissan");
 
